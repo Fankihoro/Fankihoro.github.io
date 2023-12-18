@@ -1,0 +1,50 @@
+body{
+    height:100%;
+    width:100%;
+    background-color:black;
+    color: white;
+}
+
+#myname{
+    color: blueviolet;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2 em;
+}
+.bkg_skill,.bkg_proj{
+    background-color: #b3ff00;
+}
+.larg_mod{
+    border: 1px solid #b3ff00;
+    width: 30em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.centrer_img{
+    border: 1px solid burlywood;
+}
+img,.dep{
+    margin: auto 600px;
+}
+#nom,#prenom,#email,#comment{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: 120px;
+    border: 1px solid #b3ff00;
+}
+#bouton:hover{
+    transition: 0.5s;
+    background-color: #008000;
+}
+#bouton{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: block;
+    margin-left: 130px;
+}
